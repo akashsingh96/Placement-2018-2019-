@@ -33,6 +33,7 @@ int main()
         }
         maxi--;
     }
+    
     cout<<ans<<endl;   
 
     return 0;
