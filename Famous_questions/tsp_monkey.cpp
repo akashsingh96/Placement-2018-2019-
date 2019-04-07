@@ -1,5 +1,5 @@
 /*
-https://www.geeksforgeeks.org/bitmasking-dynamic-programming-set-2-tsp/
+Problem similar to :https://www.geeksforgeeks.org/bitmasking-dynamic-programming-set-2-tsp/
 */
 
 #include<bits/stdc++.h>
@@ -16,7 +16,8 @@ int dist[20][20];
 int row, col, k;
 map<pair<int, int>, int> mp;
 
-bool safe(int x, int y){
+bool safe(int x, int y)
+{
     return (x>=0) and (y>=0) and (x<row )and (y<col) and (arr[x][y] != '#');
 }
 
